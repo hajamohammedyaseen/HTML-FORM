@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+   <html lang="en">
+     <head>
+       <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My FORM</title>
+ </head>
+<body>
+
+</html>
+
+<body style="background-color: antiquewhite;">
+<form method="post" enctype="multipart/form-data" align="center">
+
+<h3 style="color:red">Personal Details</h3>
+Name:
+<input type="text" name="name"><br><br>
+Password:
+<input type="password" name="password"><br><br>
+
+E-mail id: <input type="text" name="name"><br><br>
+Gender: <input type="radio" name="radiogroup1" value="radio"> Male
+<input type="radio" name="radiogroup1" value="radio"> Female<br><br>
+Contact: <input type="text" name="mobile">
+
+<h3 style="color: red;">Educational Qualification</h3>
+
+Degree: <select name="degree">
+        <option selected>-- Select Group --</option>
+        <option value="S01">B.Com</option>
+        <option value="S02">B.sc</option>
+        <option value="S03">B.com Computers</option>
+        <option value="S04">B.A</option>
+      </select><br>
+      <br>
+Engineering: <select name="eng">
+        <option selected>-- Select Group --</option>
+        <option value="S01">CSE</option>
+        <option value="S02">ECE</option>
+        <option value="S03">CIVIL</option>
+        <option value="S04">EEE</option>
+      </select><br><br>
+Hobbies: <input type="checkbox" name="CheckboxGroup1" value="checkbox">Playing chess
+<input type="checkbox" name="CheckboxGroup1" value="checkbox">Reading Books<br>
+<h3 style="color: red;">Address</h3>
+<textarea name="textarea" cols="35" rows="5" id="textarea"></textarea><br>
+<br>
+Attch Resume: <input type="file" name="fileField" id="fileField"><br><br>
+
+<input type="reset">
+<input type="submit">
+</form>
+</body>
+</html>
